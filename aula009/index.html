@@ -3,92 +3,108 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ficha de personagem</title>
+    <title>ficha de personagem</title> 
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <section>
-            <div>
+    <header class="topo">
+        <section class="conteiner-topo">
+            <div class="conteiner-nome-personagem">
                 <p>Nome personagem</p>
                 <input type="text" name="" id="">
             </div> 
-            <div>
+            <div class="conteiner-nome-jogador">
                 <p>nome jogador</p>
                 <input type="text" nome="" id="">
             </div>
-            <div>
+            <div class="conteiner-pontos-xp">
                 <p>pontos de experiência </p>
                 <input type="text" name="" id="">
             </div>
-            <div>
+            <div class="conteiner-raca">
                 <p>Raça</p>
                 <input type="text" name="" id="">
             </div> 
-            <div>
+            <div class="conteiner-classe">
                 <p>classe</p>
                 <input type="text" name="" id="">
             </div>
-            <div>
+            <div class="conteiner-alinhamento">
                 <p>alinhamento</p> 
                 <input type="text" name="" id="">
             </div>
         </section>
     </header> 
 
-    <main>
-        <section>
-            <div>
-                <div>
+    <main class="conteiner-conteudo-principal">
+        <section class="sessao-conteudo-principal">
+            <div class="conteiner-modificadores">
+                <div class="forca">
                     <p>FOR</p>
                     <input type="text" name="" id="">
                 </div> 
-                <div>
+                <div class="destreza">
                     <p>DES</p>
                     <input type="text" name="" id="">
                 </div> 
-                <div>
+                <div class="constituicao">
                     <p>CON</p> 
                     <input type="text" name="" id="">
                 </div> 
-                <div>
+                <div class="inteligencia">
                     <p>INT</p>
                     <input type="text" name="" id=""> 
                 </div> 
-                <div>
+                <div class="sabedoria">
                     <p>SAB</p> 
                     <input type="text" name="" id="">
                 </div> 
-                <div>
+                <div class="carisma">
                     <p>CAR</p>
                     <input type="text" name="" id="">
                 </div>
             </div>
-        </section>
-    </main> 
+        
+            <div class="conteiner-vdv-img">
+                <div class="conteiner-vdv">
+                    <div>
+                        <p>Vida</p> 
+                        <input type="text" name="" id="">
+                    </div> 
+                    <div>
+                        <p>Defesa</p>
+                        <input type="text" name="" id="">
+                    </div> 
+                    <div>
+                        <p>Velocidade</p>
+                        <input type="text" name="" id="">
+                    </div>
+                </div>
 
-    <div>
-        <div>
-            <div>
-                <p>Vida</p> 
-                <input type="text" name="" id="">
-            </div> 
-            <div>
-                <p>Defesa</p>
-                <input type="text" name="" id="">
-            </div> 
-            <div>
-                <p>Velocidade</p>
-                <input type="text" name="" id="">
+                <div class="conteiner-img">
+                    <img src="assets/naruto_sage_render_by_xuzumaki-d4qb55f.png" alt="">
+                </div>
             </div>
-        </div>
-
-        <div>
-            <img src="" alt="">
-        </div>
-    </div>
-    <div>
-        <h2>Biografia</h2> 
-        <textarea name="" id="" cols="30" rows="25"></textarea>
-    </div>
+            <div class="conteiner-biografia">
+                <h2>Biografia</h2> 
+                <textarea name="" id="" cols="30" rows="25"></textarea>
+            </div>
+        </section>
+        <section class="sessao-conteudo-secundario">
+            <div class="conteiner-equipamento">
+                <h2>equipamento</h2>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="conteiner-caracteristicas">
+                <h2>caracteristicas</h2>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="conteiner-rodape">
+            Meu github: <a href="https://github.com/eduardosl49">eduardosl49</a>
+        </div> 
+    </footer>
 </body>
 </html>
